@@ -145,7 +145,6 @@
 				EBC0EC7DF627F4CD48F09951 /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.debug.xcconfig */,
 				986F2887E66BE8909F7C8B7E /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
