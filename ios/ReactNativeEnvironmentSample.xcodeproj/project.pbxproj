@@ -38,10 +38,12 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeEnvironmentSample/main.m; sourceTree = "<group>"; };
 		50659043743C4588903809A5 /* libPods-ReactNativeEnvironmentSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeEnvironmentSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		612D61A0A9E8DEB6A5E9BFFE /* Pods-ReactNativeEnvironmentSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeEnvironmentSample.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeEnvironmentSample/Pods-ReactNativeEnvironmentSample.debug.xcconfig"; sourceTree = "<group>"; };
+		6945944E23BC1FC7CAC30F17 /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.releasestage.xcconfig"; path = "Target Support Files/Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests/Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.releasestage.xcconfig"; sourceTree = "<group>"; };
 		6D799F7A106E3F5BEE7AFE57 /* libPods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F843470682223CB3D0BED4 /* Pods-ReactNativeEnvironmentSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeEnvironmentSample.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeEnvironmentSample/Pods-ReactNativeEnvironmentSample.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeEnvironmentSample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		986F2887E66BE8909F7C8B7E /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests/Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACF3CB6C08969BED0FFCD506 /* Pods-ReactNativeEnvironmentSample.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeEnvironmentSample.releasestage.xcconfig"; path = "Target Support Files/Pods-ReactNativeEnvironmentSample/Pods-ReactNativeEnvironmentSample.releasestage.xcconfig"; sourceTree = "<group>"; };
 		EBC0EC7DF627F4CD48F09951 /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests/Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -144,6 +146,8 @@
 				70F843470682223CB3D0BED4 /* Pods-ReactNativeEnvironmentSample.release.xcconfig */,
 				EBC0EC7DF627F4CD48F09951 /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.debug.xcconfig */,
 				986F2887E66BE8909F7C8B7E /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.release.xcconfig */,
+				ACF3CB6C08969BED0FFCD506 /* Pods-ReactNativeEnvironmentSample.releasestage.xcconfig */,
+				6945944E23BC1FC7CAC30F17 /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.releasestage.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -712,7 +716,7 @@
 		};
 		A5B1E64D261A571300249BB2 /* ReleaseStage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70F843470682223CB3D0BED4 /* Pods-ReactNativeEnvironmentSample.release.xcconfig */;
+			baseConfigurationReference = ACF3CB6C08969BED0FFCD506 /* Pods-ReactNativeEnvironmentSample.releasestage.xcconfig */;
 			buildSettings = {
 				APP_DISPLAY_NAME = "Sample Stage";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -737,7 +741,7 @@
 		};
 		A5B1E64E261A571300249BB2 /* ReleaseStage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 986F2887E66BE8909F7C8B7E /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.release.xcconfig */;
+			baseConfigurationReference = 6945944E23BC1FC7CAC30F17 /* Pods-ReactNativeEnvironmentSample-ReactNativeEnvironmentSampleTests.releasestage.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;

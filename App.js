@@ -44,6 +44,7 @@ const App = () => {
             Environment: {'\n'}
             {DeviceInfo.getBundleId()}
           </Text>
+          <Text style={styles.text}>{URL_API}</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
